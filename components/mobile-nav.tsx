@@ -99,6 +99,7 @@ import { useState } from 'react';
 import { createPortal } from 'react-dom';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { ThemeToggle } from './theme-toggle';
 
 export function MobileNav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -188,6 +189,12 @@ export function MobileNav() {
                 Download CV
               </a>
             </Button>
+
+            {/* Theme Toggle in Mobile Menu */}
+            <div className="pt-4 border-t border-primary/20 mt-4">
+              <ThemeToggle />
+            </div>
+          {/* </nav> */}
           </nav>
         </div>,
         document.body
