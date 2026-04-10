@@ -60,8 +60,8 @@ export default function Home() {
       title: 'Zenzloom',
       description: 'Scalable e-commerce platform with product discovery, cart management, order placement, and role-based access control for customers and administrators.',
       tech: ['Node.js', 'Express.js', 'React.js', 'MongoDB', 'JWT', 'Redux Toolkit'],
-      link: 'https://github.com/Harsh-Verma1981/Zenzloom',
-      LiveLink : '#',
+      link: 'https://github.com/Harsh-Verma1981/ZenzyBeta',
+      LiveLink : 'https://zenzloom-shop.vercel.app/',
     },
     {
       title: 'Plant Hub',
